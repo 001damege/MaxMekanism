@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "maxmekanism.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "maxmekanism.refmap.json",
+  "mixins": [
+    "MixinMultiblockData",
+    "MixinSPSMultiblockData",
+    "MixinChemicalInfuser",
+    "MixinSolarNeutronActivator",
+    "MixinPRC",
+    "MixinElectricPump",
+    "MixinIsoticCentrifuge",
+    "MixinChemicalCrystallizer",
+    "MixinChemicalWasher",
+    "MixinAntiprotonicNucleosynthesizer",
+    "MixinRotaryCondensentrator",
+    "MixinElectrolyticSeparator",
+    "MixinChemicalDissolutionChamber",
+    "MixinFluidicPlenisher",
+    "MixinChemicalOxidizer"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

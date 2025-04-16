@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "MIT License"
+
+[[mods]]
+modId = "maxmekanism"
+version = "${mod_version}"
+displayName = "MaxMekanism"
+authors = "${mod_authors}"
+description = '''Mekanism at maximum power'''
+
+[[dependencies.maxmekanism]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.maxmekanism]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.maxmekanism]]
+modId = "mekanism"
+mandatory = true
+versionRange = "10.4.15.75"
+ordering = "AFTER"
+side = "BOTH"
